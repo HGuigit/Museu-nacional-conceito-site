@@ -1,0 +1,300 @@
+/*Estrutura do Site
+-------------------------------------*/
+body{
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    
+}
+#container{
+    width: 1300px;
+    margin: 0 auto;
+    
+
+}
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+
+/*Cabeçalho*/
+header{
+    padding: 15px;
+    height: 55px;
+
+
+}
+/*LOGO------------*/
+
+#logo{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    margin-top: 10px;
+    float: left;
+  
+
+}
+#logo a{
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+
+/*------Menu Cabeçalho----*/
+
+nav{
+    float: right;
+    width: 700px;
+    position: relative;
+    top: 15px;
+    
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav li{
+    margin-right: 25px;
+   
+    
+}
+ul{
+    list-style: none;
+}
+
+nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+    padding: 3px;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #535858;
+}
+
+/*Corpo*/
+/*conteudo*/
+#conteudo{
+    width: 870px;
+    float: left;    
+
+
+}
+
+
+
+
+#capa img{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/*video*/
+#video{
+    float: left;
+}
+
+#video h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(98, 90, 55, 0.87);
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+
+/*Mapa*/
+#map h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(98, 90, 55, 0.87);
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+#map{
+    float: left;
+    margin-left:20px ;
+
+}
+
+/*exposições*/
+
+#exposicoes{
+    float: left;
+    margin-top: 30px;
+    width: 400px;
+    
+    border-top: 3px groove grey;
+}
+
+#exposicoes h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(98, 90, 55, 0.87);
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+#exposicoes ul{
+    list-style: circle;
+    margin-left: -20px;
+    padding-right: 10px;
+
+}
+
+#exposicoes a{
+    display: block;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#historia{
+    float: left;
+    margin-top: 30px;
+    width: 400px;
+    border-top: 3px groove grey;
+    border-left:  3px dashed grey;
+    
+}
+
+#historia h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(98, 90, 55, 0.87);
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#historia p{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/*lateral*/
+aside{
+    width: 400px;
+    float: right;
+}
+
+aside #depoimento{
+    height: 390px;
+
+}
+
+#depoimento img{
+    width: 100%;
+    height: 100%;
+}
+
+#visita{
+    height: 200px;
+    background: #e7d499;
+
+}
+#visita form{
+    margin: 10px;
+}
+
+#visita h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(98, 90, 55, 0.87);
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#visita input{
+    height: 20px;
+    border: none;
+    font-size:1em;
+    
+
+}
+#dia{
+    float: left;
+}
+#num{
+    float: right;
+}
+#visita label{
+    font-size: 14px;
+    color: brown;
+    font-weight: bold;
+}
+
+#visita legend{
+    font-size: 18px;
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+
+#botao{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+}
+
+fieldset{
+    border: 3px solid grey;
+}
+
+section#galeria{
+    background: radial-gradient(#eedeaf, #cca01e);
+    border-top: 2px ridge rgb(195, 154, 78);
+    margin-top: -20px;
+}
+
+
+
+section#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px;
+    margin: 10px;
+}
+
+#galeria h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: brown;
+    letter-spacing: 1px;
+    text-align: center;  
+    padding-top: 10px;
+}
+
+#imgs{
+    margin-left: 50px;
+    border: 2px dashed grey;
+    width: 300px;
+}
+
+
